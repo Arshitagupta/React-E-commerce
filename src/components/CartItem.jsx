@@ -18,7 +18,7 @@ const CartItem = ({item,itemIndex,cartLength}) => {
     <div className="flex flex-col md:flex-row p-0 md:p-3 gap-5 items-center ">
 
       <div className="w-[30%]">
-        <img src={item.image} className="object-cover"/>
+        <img src={item.image} alt={item.title} className="object-cover"/>
       </div>
 
       <div className="md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]">
